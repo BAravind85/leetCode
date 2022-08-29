@@ -6,10 +6,10 @@ for(let i=0;i<n-k+1;i++){
     let max=arr[i]
     //console.log(max)
     for(let j=1;j<k;j++){
-         console.log(max,'<',arr[i+j])
+        // console.log(max,'<',arr[i+j])
         if(max<arr[i+j]){
             max=arr[i+j];
-            //console.log(max)
+            
         } 
     }
     result.push(max)

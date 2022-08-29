@@ -11,7 +11,7 @@ function test(s){
       
     }
     map[s[i]] = i;
-    max = Math.max(max, i - start + 1);
+    max = Math.max(max, i - start + 1);//this line i want to know
     // console.log(max,'<',i)
   }
   return max;
