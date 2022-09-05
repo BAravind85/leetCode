@@ -25,11 +25,13 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 */
 
 function fib(n){
-    if(n<2) return n;
-    let a=0, b=1;
-    for(let i =1; i<n; i++){
-        [a,b] == [b, a+b]
-    }return b;
+    // if(n<2) return n;
+    // let a=0, b=1;
+    // for(let i =1; i<n; i++){
+    //     [a,b] == [b, a+b]
+    // }return b;
+    if(n<=2) return 1;
+     return fib(n-1)+fib(n-2)
 }
 
-console.log(fib(3))
+console.log(fib(5))
