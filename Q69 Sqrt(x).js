@@ -34,8 +34,8 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
         if(i * i == x){
             return i;
         }
-        if (i * i > x){ 
-            return i-1
+        if(i *i>x){
+        return i -1;
         }
     }
 };
